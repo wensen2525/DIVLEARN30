@@ -10,6 +10,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 class StudentSeeder extends Seeder
 {
     /**
+     *
      * Run the database seeds.
      *
      * @return void
@@ -44,7 +45,7 @@ class StudentSeeder extends Seeder
         //         'major' => 'Computer Science'
         //     ],
 
-            
+
         // ]);
     }
 }

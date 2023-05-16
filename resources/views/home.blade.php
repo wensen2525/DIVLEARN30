@@ -3,5 +3,7 @@
       <p class="border border-warning p-4 m-4">
             Hello World ini layouts baru
       </p>
-      
+
+     
+
 </x-layouts>
