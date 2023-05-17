@@ -13,4 +13,4 @@ Route::get('students/{nama}', [StudentController::class, 'show']);
 
 Route::get('student/contoh', [StudentController::class, 'test']);
 
-Route::resource('/student', StudentController::class);
+Route::resource('student', StudentController::class);

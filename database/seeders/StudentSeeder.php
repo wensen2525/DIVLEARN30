@@ -18,34 +18,34 @@ class StudentSeeder extends Seeder
     public function run()
     {
         Student::factory(5)->create();
-        // DB::table('students')->insert([
-        //     [
-        //         'name' => 'Anton',
-        //         'nim' => '252342432',
-        //         'major' => 'Information System'
-        //     ],
-        //     [
-        //         'name' => 'Siti',
-        //         'nim' => '252342432',
-        //         'major' => 'Information System'
-        //     ],
-        //     [
-        //         'name' => 'Suroso',
-        //         'nim' => '252342432',
-        //         'major' => 'Computer Engineering'
-        //     ],
-        //     [
-        //         'name' => 'Denis',
-        //         'nim' => '252342432',
-        //         'major' => 'Computer Engineering'
-        //     ],
-        //     [
-        //         'name' => 'Geren',
-        //         'nim' => '252342432',
-        //         'major' => 'Computer Science'
-        //     ],
+        DB::table('students')->insert([
+            [
+                'name' => 'Anton',
+                'nim' => '252342432',
+                'major' => 'Information System'
+            ],
+            [
+                'name' => 'Siti',
+                'nim' => '252342432',
+                'major' => 'Information System'
+            ],
+            [
+                'name' => 'Suroso',
+                'nim' => '252342432',
+                'major' => 'Computer Engineering'
+            ],
+            [
+                'name' => 'Denis',
+                'nim' => '252342432',
+                'major' => 'Computer Engineering'
+            ],
+            [
+                'name' => 'Geren',
+                'nim' => '252342432',
+                'major' => 'Computer Science'
+            ],
 
 
-        // ]);
+        ]);
     }
 }

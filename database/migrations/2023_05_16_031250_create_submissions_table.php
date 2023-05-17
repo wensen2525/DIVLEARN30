@@ -15,9 +15,9 @@ return new class extends Migration
     {
         Schema::create('submissions', function (Blueprint $table) {
             $table->id();
-            $table->integer('student_id');
-            $table->string('title');
-            $table->string('image_file');
+            $table->integer('student_id')->nullable();
+            $table->string('title')->nullable();
+            $table->string('image_file')->nullable();
             $table->timestamps();
         });
     }

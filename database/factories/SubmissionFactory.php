@@ -17,7 +17,7 @@ class SubmissionFactory extends Factory
     public function definition()
     {
         return [
-            'student_id'=>mt_rand(1,10),
+            'student_id'=>$this->faker->unique()->numberBetween(1,10),
             'title'=>$this->faker->sentence(mt_rand(3,5)),
             'image_file'=>"Image.jpg"
         ];
